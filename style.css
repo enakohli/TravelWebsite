@@ -1,0 +1,268 @@
+/* CSS styling to travel website */
+@charset "ISO-8859-1";
+.title .searchBar {
+    text-align:right;
+    padding-top:20px;
+    padding-right:20px;
+}
+.title h1{
+    color:#ffffff;
+    background-color:#ff8000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+    font-weight:800;
+    letter-spacing:0.2em;
+    border:5px #ffffff solid;
+    border-style:dotted;
+    padding-top:50px;
+    padding-bottom:50px;
+    padding-left:10px;
+    margin:0px;
+    text-align:center;
+}
+.text {
+    padding-left:10px;
+}
+body {
+    background-color:#ffffff;
+    color:#000040;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    font-weight:normal;
+    line-height:1.3em;
+    margin:auto;
+}
+#bar {
+    background-color:#000080;
+    color:white;
+    margin-top:0px;
+    padding:10px;
+}
+#bar ul {
+    padding:0px;
+    list-style:none;
+    color:#ffffff;
+    font-weight:bold;
+    text-align:center;
+}
+#bar li {
+    display:inline;
+    padding-right:40px;
+}
+#bar a {
+    text-decoration:none;
+    color:white;
+}
+#bar a:hover {
+    color:red;
+}
+.dest ul {
+    color:#400080;
+    font-weight:bold;
+    font-size: 20px;
+    margin:auto;
+    list-style:circle;
+}
+.dest a {
+    text-decoration:none;
+}
+.dest a:hover {
+    color:red;
+}
+.dest li {
+    padding:10px;
+}
+.logo {
+    float:left;
+    margin-top:30px;
+    margin-right:15px;
+}
+.Mexico {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #ff8000 solid;
+    display:inline-block;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+    width:1185px;
+    height:120px;
+    position:relative;
+}
+.Greece {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #000080 solid;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+}
+.Switzerland {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #ff8000 solid;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+}
+.Austria {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #000080 solid;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+}
+.Australia {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #ff8000 solid;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+}
+.Canada {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #000080 solid;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+}
+.Thailand {
+    color:#000000;
+    font-weight:normal;
+    font-size: 17px;
+    border:5px #ff8000 solid;
+    padding-left:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    border-radius:15px;
+}
+.choose {
+    color:#ffffff;
+    letter-spacing:0.2em;
+    font-style:italic;
+    font-weight:800;
+    background-color:#ff8000;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:10px;
+}
+.reason {
+    padding-left:10px;
+    float:left;
+    width:33.3%;
+    box-sizing:border-box;
+}
+.more-info {
+    padding-left:10px;
+    border:1px solid #808080;
+    background-image:url('back.jpg');
+    background-position:100px, 200px;
+}
+.more-info h2{
+    font-style:italic;
+    font-weight:800;
+    color:#000040;
+    letter-spacing:0.1em;
+}
+.space {
+    margin-top:30px;
+    margin-bottom:30px;
+    padding-left:10px;
+}
+.questions {
+    padding:20px;
+    border:5px #000080 solid;
+    background-color:#E8E8E8;
+}
+.questions .group {
+    padding-bottom:15px;
+    font-weight:800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.questions label {
+    display:block;
+}
+.questions textarea {
+    padding:8px;
+    width:80%;
+}
+.button {
+    background-color:black;
+    color:white;
+    padding:10px;
+    display:block;
+    cursor:pointer;
+}
+.button:hover {
+    background-color:red;
+    color:white;
+    padding:10px;
+}
+.group {
+    padding-left:35px;
+}
+.fix {
+    position:fixed;
+    top:400px;
+    background-color:black;
+    color:white;
+    padding:5px;
+}
+.fix:hover {
+    position:fixed;
+    top:400px;
+    background-color:red;
+    color:white;
+}
+#user {
+    padding:10px;
+    list-style:none;
+    color:#000040;
+    font-weight:bold;
+    text-align:left;
+}
+#box {
+    width:100%;
+    height:50px;
+    background-color:#000080;
+}
+footer {
+    background:#333;
+    color:#fff;
+    text-align:center;
+}
+.error {
+    background:coral;
+    color:white;
+    text-align:center;
+    font-weight:800;
+}
+.fadeBox1 {
+    padding:10px;
+    background-color:#000080;
+    color:white;
+}
+.secondbox {
+    padding:10px;
+    background-color:red;
+    color:white;
+    position:relative;
+}
+.hide {
+    visibility:hidden;
+}
